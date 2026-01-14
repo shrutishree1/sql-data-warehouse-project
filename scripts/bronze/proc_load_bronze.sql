@@ -12,7 +12,7 @@ Parameters:
       None.
       (This stored Procedure does not accept any parameters or returns any values).
 
-Usage Example:
+Usage Example: ( To run the Stored Procedure)
     EXEC bronze.load_bronze
 ====================================================================================================
 */
