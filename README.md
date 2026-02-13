@@ -61,25 +61,25 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 data-warehouse-projects/
 |
-|--- datasets/                         # Raw datasets used for the project (ERP and CRM data)
+|-- datasets/                         # Raw datasets used for the project (ERP and CRM data)
 |
-|--- docs/                             # Project documentation and architecture details
-|   |--- etl.draw.io                   # draw.io file shows all different techniques and methods of ETL
-|   |--- data_architecture.drawio      # draw.io file shows the project architecture
-|   |--- data_catalog.md               # Catalog of datasets, including field description and metadata
-|   |--- data_flow.drawio              # draw.io file for the data flow diagram
-|   |--- data_models.drawio            # draw.io file for data model (star schema)
-|   |--- naming_conventions.md         # Consistent naming guildlines for tables, columns and files
+|-- docs/                             # Project documentation and architecture details
+|   |-- etl.draw.io                   # draw.io file shows all different techniques and methods of ETL
+|   |-- data_architecture.drawio      # draw.io file shows the project architecture
+|   |-- data_catalog.md               # Catalog of datasets, including field description and metadata
+|   |-- data_flow.drawio              # draw.io file for the data flow diagram
+|   |-- data_models.drawio            # draw.io file for data model (star schema)
+|   |-- naming_conventions.md         # Consistent naming guildlines for tables, columns and files
 |
-|--- scripts/                          # SQL scripts for ETL and transformations
-|   |--- bronze/                       # Scripts for extracting and loading raw data
-|   |--- silver/                       # Scripts for cleaning and transforming data
-|   |--- gold/                         # Scripts for creating analytical models
+|-- scripts/                          # SQL scripts for ETL and transformations
+|   |-- bronze/                       # Scripts for extracting and loading raw data
+|   |-- silver/                       # Scripts for cleaning and transforming data
+|   |-- gold/                         # Scripts for creating analytical models
 |
-|--- tests/                            # Test scripts and quality files
+|-- tests/                            # Test scripts and quality files
 |
-|--- readme.md                         # Project overview and instructions
-|--- LICENSE                           # License information for the repository
+|-- readme.md                         # Project overview and instructions
+|-- LICENSE                           # License information for the repository
 
 -----------------------------------------------------
 -----------------------------------------------------
