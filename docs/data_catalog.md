@@ -24,6 +24,7 @@ and **fact tables** for specific business metrices.
 | birthdate       | DATE          | The date of birth of the customer (format: YYYY-MM-DD). |
 | create_date     | DATE          | The date and time when the customer record was created in the system. |
 
+
 2. **gold.dim_products**
     - **Purpose**: Provide information about the products and their attributes.
     - **Columns** :
@@ -41,6 +42,7 @@ and **fact tables** for specific business metrices.
 | cost           | INT           | The cost or base price of the products, measured in monetary units. |
 | product_line   | NVARCHAR(50)  | The specific product line or series to which the product belongs (e.g., Road, Mountain). |
 | start_date     | DATE          | The date when the product became available for the sale or use, stored in. |
+
 
 3. **gold.fact_sales**
     - **Purpose**: Stores transactional sales data for analytical purposes.
