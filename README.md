@@ -5,7 +5,8 @@ This project demonstrate a comprehensive data warehousing and analytics solution
 Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 <hr>
-**📖 Project Overview** 
+
+## 📖 Project Overview
 
 This project involves:
 1. **Data Architecture**: Designing a modern Data Warehouse using Medallion Architecture **Bronze**, **Silver** and **Gold** layers.
@@ -23,7 +24,7 @@ This project involves:
 - Data Analytics
 
 
-## Project Requirements
+## 📌Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
 
