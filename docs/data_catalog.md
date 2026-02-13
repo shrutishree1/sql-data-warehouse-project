@@ -14,7 +14,7 @@ and **fact tables** for specific business metrices.
     -----------------------------------------------------------------------------------------------------------------------------
     |  Column Name          | Data Type        |                                       Description                              |
     -----------------------------------------------------------------------------------------------------------------------------
-    | customer_key          | INT              | Surrogate Key uniquely identifying each customer record in the dimension table.|
+    | customer_key          / INT              / Surrogate Key uniquely identifying each customer record in the dimension table./
     -----------------------------------------------------------------------------------------------------------------------------
-    | customer_id           | INT              | Unique numerial identifier assigned to each customer.                          |
+    | customer_id           / INT              / Unique numerial identifier assigned to each customer.                          /
     -----------------------------------------------------------------------------------------------------------------------------
