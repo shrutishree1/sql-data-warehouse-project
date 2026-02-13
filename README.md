@@ -50,8 +50,36 @@ These insights empower stakeholders with business key metrices, enabling strateg
 **:🏗 Data Architecture**
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver** and **Gold** layers:
+
 <img width="1186" height="604" alt="image" src="https://github.com/user-attachments/assets/7263801e-df19-42f5-ac3f-ab826c6a00ad" />
 
+1. **Bronze Layer**: Stores raw data as-in from the source systems. Data is ingested from the CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Contained business-ready data modeled into a star schema required for reporting and analytics.
+
+**📁 Repository Structure**
+
+data-warehouse-projects/
+|
+|--- datasets/                         # Raw datasets used for the project (ERP and CRM data)
+|
+|--- docs/                             # Project documentation and architecture details
+|   |--- etl.draw.io                   # draw.io file shows all different techniques and methods of ETL
+|   |--- data_architecture.drawio      # draw.io file shows the project architecture
+|   |--- data_catalog.md               # Catalog of datasets, including field description and metadata
+|   |--- data_flow.drawio              # draw.io file for the data flow diagram
+|   |--- data_models.drawio            # draw.io file for data model (star schema)
+|   |--- naming_conventions.md         # Consistent naming guildlines for tables, columns and files
+|
+|--- scripts/                          # SQL scripts for ETL and transformations
+|   |--- bronze/                       # Scripts for extracting and loading raw data
+|   |--- silver/                       # Scripts for cleaning and transforming data
+|   |--- gold/                         # Scripts for creating analytical models
+|
+|--- tests/                            # Test scripts and quality files
+|
+|--- readme.md                         # Project overview and instructions
+|--- LICENSE                           # License information for the repository
 
 -----------------------------------------------------
 -----------------------------------------------------
