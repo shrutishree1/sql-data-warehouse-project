@@ -8,8 +8,8 @@ and **fact tables** for specific business metrices.
 <hr>
 
 1. **gold.dim_customers**
-- **Purpose**: Stores customer details enriched with demographic and geographic data.
-- **Columns** :
+ - **Purpose**: Stores customer details enriched with demographic and geographic data.
+ - **Columns** :
 
 | Column Name     | Data Type     | Description |
 |-----------------|---------------|-------------|
@@ -26,8 +26,8 @@ and **fact tables** for specific business metrices.
 
 
 2. **gold.dim_products**
-- **Purpose**: Provide information about the products and their attributes.
-- **Columns** :
+ - **Purpose**: Provide information about the products and their attributes.
+ - **Columns** :
 
 | Column Name     | Data Type     | Description |
 |-----------------|---------------|-------------|
@@ -45,8 +45,8 @@ and **fact tables** for specific business metrices.
 
 
 3. **gold.fact_sales**
-- **Purpose**: Stores transactional sales data for analytical purposes.
-- **Columns** :
+ - **Purpose**: Stores transactional sales data for analytical purposes.
+ - **Columns** :
 
 | Column Name     | Data Type     | Description |
 |-----------------|---------------|-------------|
